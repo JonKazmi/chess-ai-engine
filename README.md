@@ -47,8 +47,7 @@ chess-ai-engine/
 │
 ├── chess_rules.py       # Layer 1 — Game engine: board, move generation, rules
 ├── chess_game.py        # Layer 2 — AI layer: search algorithms, state management
-├── index.html           # Playable UI — browser-based interface
-├── requirements.txt     # Python dependencies
+├── chess_ui.html        # Playable UI — browser-based interface
 └── README.md
 ```
 
@@ -126,18 +125,13 @@ Positional bonuses are applied via **piece-square tables** — lookup grids that
 
 ## How to Run
 
-### Prerequisites
-```bash
-pip install -r requirements.txt
-```
-
 ### Run the Engine
 ```bash
 python chess_game.py
 ```
 
 ### Play via UI
-Open `index.html` in your browser and select a difficulty level to play against the AI.
+Open `chess_ui.html` in your browser and select a difficulty level to play against the AI.
 
 ---
 
@@ -154,15 +148,11 @@ Open `index.html` in your browser and select a difficulty level to play against 
 
 ---
 
-## Authors
+## Author
 
-**Yasir Hameed Khalil**
 **Jon Abbas Kazmi**
-**Abdul Hadi**
-
-**Program:** BS Electronics and Computing
-**Course:** Artificial Intelligence
-**Submitted:** May 2026
+BS Electronics and Computing
+Artificial Intelligence — Course Project, May 2026
 
 ---
 
